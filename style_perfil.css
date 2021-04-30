@@ -1,0 +1,87 @@
+body{
+    display: flex;
+    justify-content: center;    
+}
+
+.containerGrid {
+    width: 900px;
+    display: grid;
+    grid-template-columns: 200px 1.6fr;
+    grid-template-rows: 200px 1.4fr;
+    gap: 0px 0px;
+  }
+  
+  .foto {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-left: 20px solid #3ACFD5;
+    border-right: 20px solid #3a4ed5;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100% ;
+    background-repeat: no-repeat;
+    -webkit-background-size: 100% 20px;
+    -moz-background-size: 100% 20px;
+    background-size: 100% 20px;
+    background-image: -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -webkit-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+    background-image: -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -moz-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+    background-image: -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%), -o-linear-gradient(left, #3acfd5 0%, #3a4ed5 100%);
+    background-image: linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%), linear-gradient(to right, #3acfd5 0%, #3a4ed5 100%);
+  }
+
+  .foto {
+    display: flex;  
+    background-color: gray/*#0D6EAD*/;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .foto img{
+      height: 120px;
+      width: auto;
+  }
+
+  .DataPersonal{
+      background-color:#083D61;
+      color: white;
+  }
+
+  .DataPersonal h1{
+    margin-left: 25px;
+    margin-top: 40px;
+    }
+
+  .DataPersonal p{
+    margin-left: 25px;
+    color: #656C70;
+    font-size: large;
+    }
+
+    .ApartadoIzq{
+        background-color:#083D61 ;
+        height: 800px;
+    }
+    .ApartadoIzq h4{
+      margin-left: 10px;
+      color: white;
+  }
+
+  .ApartadoIzq ul{
+      margin-left: 10px;
+      color: #656C70;
+  }
+
+  .Cuerpo h4{
+    margin-left: 25px;
+  }
+
+  .Cuerpo ul{
+    margin-left: 25px;
+    font-size: large;
+  }
+
+  .Cuerpo a{
+    margin-left: 25px; 
+  }

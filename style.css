@@ -1,0 +1,64 @@
+/*colores
+blanco   
+gris     #656C70
+---------tonalidades de azul
+muy claro #b4e1ff
+claro    #128EE0
+oscuro   #0D6EAD
+muyoscuro #083D61
+*/
+.PagPrincipal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #083D61;
+}
+
+.KBCR {
+    width: 800px;
+}
+
+.KBCR h1 {
+    color: white;
+}
+
+.KBCR nav{
+     margin-bottom: 20px;
+}
+
+.KBCR nav a {
+    color: white;
+    font-size:large;
+    font-weight: bold;
+    text-decoration-line: none;
+    margin-right: 20px;
+}
+
+.banner{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+    /*Fondo con gradiente*/
+    background: rgb(224,224,224);
+    background: linear-gradient(90deg, rgba(224,224,224,1) 0%, rgba(101,108,112,1) 50%, rgba(224,224,224,1) 100%);
+}
+
+.banner img {
+    margin-top: 20px;
+}
+.banner section{
+    color: white;
+}
+
+.banner section h2{
+    text-align: center;
+    text-size-adjust: 10px;
+}
+
+.parrafo{
+    width: 800px;
+    color: white;
+    font-size:large;
+    text-align: justify;
+}
